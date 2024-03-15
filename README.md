@@ -2,5 +2,9 @@
 
 a minimal socket setup for building minimal elixir webapps.
 
-mix escript.build
+
+build and run:
+```
+mix escript.build  
 ./esocket
+```
