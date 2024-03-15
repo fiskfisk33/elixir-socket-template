@@ -7,7 +7,7 @@ defmodule ESOCKET.MixProject do
       version: "0.1.0",
       elixir: "~> 1.16",
       start_permanent: Mix.env() == :prod,
-      escript: [main_module: ESOCKET.Socket],  # You have to add this extraline
+      escript: [main_module: ESOCKET.Socket],
       deps: deps()
     ]
   end
